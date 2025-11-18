@@ -19,6 +19,7 @@
 ### Backend (Spring Boot)
 핵심 비즈니스 로직을 도메인별로 분리하고, QueryDSL과 Security 설정을 모듈화하여 관리했습니다.
 
+```text
 src/main/java/com/example/shoppingmall
 ├── config            # 설정 파일 (Security, CORS, QueryDSL, JWT)
 │   ├── JwtAuthenticationFilter.java
@@ -34,8 +35,8 @@ src/main/java/com/example/shoppingmall
 │   ├── ProductRepositoryImpl.java (QueryDSL 구현)
 │   └── ...
 └── service           # 비즈니스 로직 & 트랜잭션 처리
-
-
+```
+```text
 src
 ├── api               # Axios 설정 (Interceptor, BaseURL)
 │   └── axiosConfig.js
@@ -53,7 +54,7 @@ src
 │   └── cartState.js
 ├── App.jsx           # 라우팅 및 레이아웃 설정
 └── main.jsx          # 진입점 (Provider 설정)
-
+```
 
 ## 🔥 핵심 기능 및 문제 해결 (Key Features)
 

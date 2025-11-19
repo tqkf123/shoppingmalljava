@@ -6,7 +6,7 @@
 
 ## 🎥 시연 영상
 (여기에 유튜브 링크나 GIF 이미지를 넣으세요!)
-![시연영상](https://your-image-link.com/demo.gif)
+![시연영상](https://youtu.be/gSduEjiMkls)
 
 ## 🛠️ 기술 스택 (Tech Stack)
 * **Backend:** Java 17, Spring Boot 3.2, Spring Security, JPA, QueryDSL, MySQL

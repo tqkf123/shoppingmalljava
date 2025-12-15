@@ -1,20 +1,20 @@
-# 🛍️ Spring Boot + React 쇼핑몰 프로젝트 (MyShop)
+#  Spring Boot + React 쇼핑몰 프로젝트 (MyShop)
 
-## 📖 프로젝트 소개
+##  프로젝트 소개
 사용자에게 직관적인 쇼핑 경험을 제공하고, 관리자에게는 효율적인 상품 관리 기능을 제공하는 **풀스택 쇼핑몰 서비스**입니다.
 **트랜잭션 처리, N+1 문제 해결, 보안(JWT)** 등 백엔드의 핵심 기술적 챌린지를 해결하는 데 집중했습니다.
 
-## 🎥 시연 영상
+##  시연 영상
 ![시연영상](https://youtu.be/gSduEjiMkls)
 https://youtu.be/gSduEjiMkls
 
-## 🛠️ 기술 스택 (Tech Stack)
+##  기술 스택 (Tech Stack)
 * **Backend:** Java 17, Spring Boot 3.2, Spring Security, JPA, QueryDSL, MySQL
 * **Frontend:** React, Vite, Recoil, Axios, Tailwind CSS, MUI
 * **Payment:** PortOne (KakaoPay)
 
 
-## 📂 프로젝트 구조 (Project Structure)
+##  프로젝트 구조 (Project Structure)
 
 ### Backend (Spring Boot)
 핵심 비즈니스 로직을 도메인별로 분리하고, QueryDSL과 Security 설정을 모듈화하여 관리했습니다.
@@ -56,7 +56,7 @@ src
 └── main.jsx          # 진입점 (Provider 설정)
 ```
 
-## 🔥 핵심 기능 및 문제 해결 (Key Features)
+##  핵심 기능 및 문제 해결 (Key Features)
 
 ### 1. 안전하고 유연한 인증 시스템 (Security + JWT)
 * **문제:** 세션 기반 인증은 서버 확장에 불리함.
